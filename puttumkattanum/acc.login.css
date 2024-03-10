@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0;padding:0;font-family:"montserrat",sans-serif }
+
+nav{background:#fff000;height: 80px;width:100%;}
+
+header{background-image:url("Artboard 5.png");backgeound-size:cover;background-position: center;height:120vh;}
+
+.profile0 img
+{ top:10px;
+position:absolute;
+left:calc(50% - 60px);
+border:10px solid#0000;}
+
+.user0{width:80px;
+height:80px;
+border-radius: 10%;background:#fff000;}
+
+
+label.logo{position: absolute; color:#000; font-size:35px;line-height: 80px;padding:0 25px; font-weight:bold;}
+
+ul{float:right;
+list-style-type:none;
+margin-top: 25px }
+
+ul li{display: inline-block;
+margin-right:80px}
+
+ul li a{text-decoration:none;
+color:black;
+padding:5px;
+transition: 0.5s,ease;}
+
+ul li a:hover{color:rgba(255,255,255,1.00);border:3px solid;padding: 2px 20px;border-radius:12px;background-color:#AE915E;box-shadow:0px 0px 5px 3px;
+cursor:pointer;transition:0.5s;}
+
+
+
+.loginbox{
+	width:350px;
+	height:450px;
+	background:#FFF000;
+	top:60%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:90px 50px;}
+
+.pic{background:url("Artboard 5.1.png");background-position: center; width: 70px;
+height:70px;
+border-radius:100%;
+position:absolute;
+top:-8%;
+left:40%;
+}
+
+.loginbox p{margin:0;
+padding:0;
+font-weight:bold;
+}
+
+.loginbox input{
+margin-bottom:20px;
+}
+
+.loginbox input [type="text"],input[type=username]
+{border:none;width: 100%;
+border-bottom:1px solid#fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#217429;
+font-size:16px;}
+
+
+.loginbox input [type="text"],input[type=password]
+{border:none;width: 100%;
+border-bottom:1px solid#fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#217429;
+font-size:16px;}
+
+.btn{position:absolute;
+display:inline-block;
+top:66%;
+left:50%;
+width: 70%;
+transform:translate(-50%,-50%);;
+background:linear-gradient(#fff000,#7EC51B);
+border-radius:30px;
+border:#FFFFFF;
+box-shadow:0px 0px 5px 3px; 
+color:#fff;
+padding:5px;
+font-size:20px;}
+
+.btn:hover
+{
+	cursor:pointer;
+	background:linear-gradient(#7EC51B,#fff000);
+}
+
+
+
+.loginbox a{text-decoration: none;
+font-size: 12px;
+line-height:20px;
+color:darkgreen;}
+
+.loginbox a:hover{color:black;}
+

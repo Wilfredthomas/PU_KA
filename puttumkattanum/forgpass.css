@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0;padding:0;font-family:"montserrat",sans-serif }
+
+nav{background:#fff000;height: 80px;width:100%;}
+
+header{background-image:url("Artboard 5.png");backgeound-size:cover;background-position: center;height:120vh;}
+
+.profile0 img
+{ top:10px;
+position:absolute;
+left:calc(50% - 60px);
+border:10px solid#0000;}
+
+.user0{width:80px;
+height:80px;
+border-radius: 10%;background:#fff000;}
+
+
+label.logo{position: absolute; color:#000; font-size:35px;line-height: 80px;padding:0 25px; font-weight:bold;}
+
+ul{float:right;
+list-style-type:none;
+margin-top: 25px }
+
+ul li{display: inline-block;
+margin-right:80px}
+
+ul li a{text-decoration:none;
+color:black;
+padding:5px;
+transition: 0.5s,ease;}
+
+ul li a.home:hover{color:rgba(255,255,255,1.00);border:3px solid;padding: 2px 20px;border-radius:12px;background-color:#AE915E;box-shadow:0px 0px 5px 3px;
+cursor:pointer;transition:0.5s;}
+
+ul li a.locate:hover{color:rgba(255,255,255,1.00);border:3px solid;padding: 2px 20px;border-radius:12px;background-color:#AE915E;box-shadow:0px 0px 5px 3px;
+cursor:pointer;transition:0.5s;}
+
+ul li a.seat:hover{color:rgba(255,255,255,1.00);border:3px solid;padding: 2px 20px;border-radius:12px;background-color:#AE915E;box-shadow:0px 0px 5px 3px;
+cursor:pointer;transition:0.5s;}
+
+ul li a.dishes:hover{color:rgba(255,255,255,1.00);border:3px solid;padding: 2px 20px;border-radius:12px;background-color:#AE915E;box-shadow:0px 0px 5px 3px;
+cursor:pointer;transition:0.5s;}
+
+.form-control{ width:20%;
+border:1px solid #000;
+outlinne:none;
+height:30px;
+font-size:16px;margin:0px 0px;border-radius: 4px;padding-left: 20px;}
+
+
+.subs{background-color:yellow;background-position:center; position:absolute;padding:8px;margin:0px 10px;border: 0px; border-radius: 5px; width:6%;color:black;}
